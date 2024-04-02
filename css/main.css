@@ -17,6 +17,7 @@ body {
   max-width: 1440px;
   width: calc(100% - 10rem);
   margin: auto;
+  overflow: hidden;
 }
 
 /* fixed는 브라우저를 기준으로 하므로
@@ -65,7 +66,7 @@ body {
 
 .sec-main p {
   font-size: 16px;
-  width: 50%;
+  width: 550px;
   opacity: 0.5;
   margin: 2rem 0 3rem 0;
   line-height: 1.8;
@@ -311,28 +312,36 @@ body {
   z-index: -1;
 }
 
-.sec-grid {
+.sec-grid h2 {
+  display: none;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 0.3px;
+  padding: 100px 0 50px 0;
+}
+
+.gridArea {
   display: grid;
   grid-template-columns: 321px 321px 321px 321px;
   grid-template-rows: 321px 321px;
 }
 
-.sec-grid > div:nth-child(3) {
+.gridArea > div:nth-child(3) {
   grid-column: 3/5;
 }
 
-.sec-grid > div:nth-child(3) img {
+.gridArea > div:nth-child(3) img {
   position: relative;
   top: -61%;
   width: 558px;
   height: 514px;
 }
-.sec-grid > div:nth-child(3) p {
+.gridArea > div:nth-child(3) p {
   position: relative;
   top: -60%;
 }
 
-.sec-grid > div > p {
+.gridArea > div > p {
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
@@ -340,7 +349,7 @@ body {
   line-height: 1.5;
 }
 
-.sec-grid > div > p > strong {
+.gridArea > div > p > strong {
   font-weight: 500;
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
@@ -358,10 +367,7 @@ body {
 }
 
 .sec-link > div:last-of-type {
-  position: relative;
   border: none;
-  height: 250px;
-  width: 100%;
 }
 
 .sec-link > div span {
@@ -400,4 +406,126 @@ body {
   font-size: 25px;
   right: 0;
   top: 40%;
+}
+
+@media (max-width: 1200px) {
+  .mw {
+    width: calc(100% - 5rem);
+  }
+
+  .hd {
+    width: calc(100% - 5rem);
+  }
+
+  .sec-main {
+    width: 100%;
+  }
+
+  .sec-main h2 {
+    width: 100%;
+  }
+
+  .sec-main img {
+    width: 100%;
+  }
+
+  .sec-main p {
+    margin: 2rem 0 1rem 0;
+  }
+
+  .sec-main .item {
+    position: relative;
+    display: block;
+  }
+
+  .sec-main .item div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 200px;
+    margin-right: 2rem;
+  }
+
+  .sec-main > img {
+    height: 900px;
+    width: 700px;
+    left: 0;
+  }
+
+  .sec-list .card {
+    margin: 0.5rem;
+  }
+
+  .sec-intro {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .sec-intro::before {
+    display: none;
+  }
+
+  .sec-intro h2 {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    padding-bottom: 100px;
+  }
+
+  .sec-intro p {
+    position: relative;
+    font-size: 20px;
+    line-height: 1.5;
+    left: auto;
+    top: auto;
+    width: 500px;
+  }
+
+  .sec-intro a {
+    bottom: auto;
+    top: 38%;
+    left: 350px;
+  }
+
+  .sec-grid h2 {
+    display: block;
+  }
+
+  .gridArea {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gridArea > div:nth-child(3) img {
+    position: relative;
+    top: auto;
+    width: 321px;
+    height: 321px;
+  }
+
+  .gridArea > div:nth-child(3) p {
+    position: relative;
+    top: auto;
+  }
+
+  .sec-link {
+    padding-top: 10%;
+  }
+
+  .sec-link > div {
+    height: 200px;
+  }
+
+  .sec-link > div strong {
+    left: 70px;
+  }
+
+  .sec-link > div small {
+    left: 70px;
+  }
+
+  .sec-link a {
+    right: 0;
+    top: 65%;
+  }
 }

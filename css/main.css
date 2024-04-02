@@ -1,0 +1,403 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.mw {
+  position: relative;
+  max-width: 1440px;
+  width: calc(100% - 10rem);
+  margin: auto;
+}
+
+/* fixed는 브라우저를 기준으로 하므로
+상위 부모에 max-width가 있다 하더라도 무시되므로 다시 선언해줘야한다. */
+.hd {
+  max-width: 1440px;
+  width: calc(100% - 10rem);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.hd h1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.375;
+  letter-spacing: 1px;
+}
+
+.hd ul {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.75;
+  letter-spacing: 1.5px;
+  opacity: 0.67;
+  display: flex;
+  gap: 1rem;
+}
+
+.hd li a {
+  height: 100%;
+  display: block;
+}
+
+.sec-main {
+  position: relative;
+  margin: 200px 0 200px 0;
+}
+
+.sec-main h2 {
+  width: 70%;
+}
+
+.sec-main p {
+  font-size: 16px;
+  width: 50%;
+  opacity: 0.5;
+  margin: 2rem 0 3rem 0;
+  line-height: 1.8;
+}
+
+.sec-main .item {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 50px;
+  gap: 1rem;
+}
+
+.sec-main .item div {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.sec-main .item div > * {
+  display: block;
+}
+
+.sec-main .item strong {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sec-main .item div:nth-of-type(1) strong {
+  color: #ffe642;
+}
+
+.sec-main .item div:nth-of-type(2) strong {
+  color: #fb1351;
+}
+
+.sec-main .item span {
+  padding-top: 0.5rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.sec-main > a {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  width: 200px;
+  padding: 26px 0 26px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sec-main > a:nth-of-type(1) {
+  background-color: #25ab75;
+  margin-right: 2rem;
+}
+
+.sec-main > a:nth-of-type(2) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sec-main > img {
+  display: block;
+  position: absolute;
+  height: 1170px;
+  width: 780px;
+  top: -230px;
+  z-index: -1;
+  right: 0;
+}
+
+.sec-main .new {
+  width: 329px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.125;
+  letter-spacing: 0.5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+.sec-main .new span {
+  font-size: 10px;
+  background-color: #25ab75;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
+}
+
+.sec-list {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.sec-list h3 {
+  font-weight: 600;
+  font-size: 35px;
+  padding-bottom: 2.5rem;
+}
+
+.sec-list .list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.sec-list .card {
+  position: relative;
+  width: 373px;
+  height: 296px;
+  margin: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.sec-list .card::before {
+  content: '';
+  position: absolute;
+  width: 373px;
+  height: 296px;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 1) 100%);
+}
+
+.sec-list .card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 373px;
+  height: 296px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.sec-list .card strong {
+  position: absolute;
+  font-weight: 600;
+  font-size: 50px;
+  bottom: 30px;
+  left: 20px;
+}
+
+.sec-list .card > span {
+  position: absolute;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  bottom: 0;
+  left: 20px;
+  color: rgba(255, 255, 255, 0.67);
+}
+
+.sec-list .card em {
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  color: white;
+  z-index: 10;
+}
+
+.sec-list .card em::before {
+  position: absolute;
+  content: '';
+  background-color: black;
+  border-top-left-radius: 20px;
+  bottom: 0;
+  right: 0;
+  height: 29px;
+  width: 72px;
+  z-index: -1;
+}
+
+.sec-list > a {
+  position: absolute;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.67;
+  top: 10px;
+  right: 40px;
+}
+
+.sec-intro {
+  position: relative;
+  height: 733px;
+}
+
+.sec-intro::before {
+  top: 0;
+  right: 0;
+  position: absolute;
+  content: '';
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 1000px;
+  height: 733px;
+  z-index: 10;
+}
+
+.sec-intro h2 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 120px;
+  letter-spacing: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sec-intro p {
+  position: absolute;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 2.5;
+  letter-spacing: 0.5px;
+  display: block;
+  width: 543px;
+  opacity: 0.7;
+  left: 50%;
+  top: 20%;
+}
+
+.sec-intro a {
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #25ab75;
+  bottom: 35%;
+  left: 50%;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.sec-intro img {
+  position: absolute;
+  bottom: 5%;
+  z-index: -1;
+}
+
+.sec-grid {
+  display: grid;
+  grid-template-columns: 321px 321px 321px 321px;
+  grid-template-rows: 321px 321px;
+}
+
+.sec-grid > div:nth-child(3) {
+  grid-column: 3/5;
+}
+
+.sec-grid > div:nth-child(3) img {
+  position: relative;
+  top: -61%;
+  width: 558px;
+  height: 514px;
+}
+.sec-grid > div:nth-child(3) p {
+  position: relative;
+  top: -60%;
+}
+
+.sec-grid > div > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.5;
+  line-height: 1.5;
+}
+
+.sec-grid > div > p > strong {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.sec-link {
+  padding-top: 10%;
+}
+
+.sec-link > div {
+  position: relative;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+  height: 250px;
+  width: 100%;
+}
+
+.sec-link > div:last-of-type {
+  position: relative;
+  border: none;
+  height: 250px;
+  width: 100%;
+}
+
+.sec-link > div span {
+  position: absolute;
+  font-weight: 600;
+  font-size: 25px;
+  opacity: 0.34;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sec-link > div strong {
+  position: absolute;
+  top: 35%;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.83px;
+  /* transform: translateY(-50%); */
+  left: 40%;
+}
+
+.sec-link > div small {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  opacity: 0.5;
+  left: 40%;
+  top: 65%;
+}
+
+.sec-link a {
+  position: absolute;
+  display: block;
+  font-size: 25px;
+  right: 0;
+  top: 40%;
+}

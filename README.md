@@ -1,21 +1,21 @@
 <!-- @format -->
 
-# :muscle:FIGMA CLONE CODING!
+# FIGMA CLONE CODING! :muscle:
 
 ![이미지](./img/readMeImg.png)
 
 - [링크](https://songsu218.github.io/sssemiProject1/)
 
-## :hatching_chick:프로젝트 소개
+## 프로젝트 소개 :hatching_chick:
 
 - 피트니스 랜딩 페이지입니다.
 - FIGMA에서 임의의 시안을 선택한 클론코딩 프로젝트입니다. HTML과 CSS만 활용하여 구현하였습니다.
 
-## :hatched_chick:개발기간
+## 개발기간 :hatched_chick:
 
 - 2024.04.01(월)~2024.04.02(화)
 
-## :baby_chick:개발자 소개
+## 개발자 소개 :baby_chick:
 
 - **송성우**
 

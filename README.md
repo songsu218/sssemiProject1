@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# FIGMA CLONE CODING
+# :muscle:FIGMA CLONE CODING!
 
 ![이미지](./img/readMeImg.png)
 

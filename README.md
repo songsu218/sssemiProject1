@@ -4,7 +4,8 @@
 
 ![이미지](./img/readMeImg.png)
 
-- [링크](https://songsu218.github.io/sssemiProject1/)
+- [주소](https://songsu218.github.io/sssemiProject1/)
+- [시안](https://www.figma.com/file/IcazX3KUiWW6TrfwnFqMpx/Fitness-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=7jCaPpVd8fA9Hhz7-0)
 
 ## 프로젝트 소개 :hatching_chick:
 
@@ -21,8 +22,10 @@
 
 ## 1. 개발환경 :chicken:
 
-- Front : <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">, CSS
-- 디자인 : [Figma](<https://www.figma.com/file/IcazX3KUiWW6TrfwnFqMpx/Fitness-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=7jCaPpVd8fA9Hhz7-0>)
+- Front
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> 
+- 디자인
+- <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
 
 ## 2. 깨달은 점 :mag:
 

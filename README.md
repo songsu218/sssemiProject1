@@ -19,12 +19,12 @@
 
 - **송성우**
 
-## 1.개발환경:chicken:
+## 1. 개발환경 :chicken:
 
 - Front : HTML, CSS
 - 디자인 : [Figma](<https://www.figma.com/file/IcazX3KUiWW6TrfwnFqMpx/Fitness-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=7jCaPpVd8fA9Hhz7-0>)
 
-## 2. 깨달은 점:mag:
+## 2. 깨달은 점 :mag:
 
 fixed는 뷰포트를 기준으로 배치하지만, 요소의 조상 중 하나가 <br/>
 transform, perspective, filter none이 아닌 속성이라면 그 조상을 기준으로 삼습니다.

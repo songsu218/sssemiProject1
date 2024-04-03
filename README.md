@@ -21,7 +21,7 @@
 
 ## 1. 개발환경 :chicken:
 
-- Front : HTML, CSS
+- Front : <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">, CSS
 - 디자인 : [Figma](<https://www.figma.com/file/IcazX3KUiWW6TrfwnFqMpx/Fitness-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=7jCaPpVd8fA9Hhz7-0>)
 
 ## 2. 깨달은 점 :mag:

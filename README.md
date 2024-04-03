@@ -8,7 +8,7 @@
 ## 프로젝트 소개 :hatching_chick:
 
 - 피트니스 랜딩 페이지입니다.
-- FIGMA에서 임의의 시안을 선택한 클론코딩 프로젝트입니다. HTML과 CSS만 활용하여 구현하였습니다.
+- Figma 디자인 클론코딩 프로젝트입니다. HTML과 CSS만 활용하여 구현하였습니다.
 - [시안](https://www.figma.com/file/IcazX3KUiWW6TrfwnFqMpx/Fitness-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=7jCaPpVd8fA9Hhz7-0)
 - [주소](https://songsu218.github.io/sssemiProject1/)
 

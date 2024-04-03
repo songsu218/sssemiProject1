@@ -4,6 +4,8 @@
 
 ![이미지](./img/readMeImg.png)
 
+- [링크](https://songsu218.github.io/sssemiProject1/)
+
 ## 프로젝트 소개
 
 - 피트니스 랜딩 페이지입니다.
